@@ -8,6 +8,8 @@ PRODUCT_RELEASE_NAME := i9305
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+include device/samsung/i9305/sm.mk
+
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/spirit/config/common_phone.mk)
 
